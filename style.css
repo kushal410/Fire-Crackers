@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: #000;
+    color: #fff;
+    margin: 0;
+    overflow: hidden;
+}
+
+#game-area {
+    position: relative;
+    width: 100vw;
+    height: 90vh;
+}
+.firecracker {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: yellow;
+    box-shadow: 0 0 10px 5px orange;
+    animation: explode 0.6s forwards;
+}
+
+@keyframes explode {
+    0% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(3); opacity: 0.7; }
+    100% { transform: scale(0); opacity: 0; }
+}
