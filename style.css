@@ -7,6 +7,26 @@ body {
     overflow: hidden;
 }
 
+header {
+    padding: 10px;
+}
+
+nav {
+    margin: 10px 0;
+}
+
+nav button {
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background: orange;
+    color: #000;
+    font-weight: bold;
+}
+
 #game-area {
     position: relative;
     width: 100vw;
